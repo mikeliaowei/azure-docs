@@ -346,6 +346,7 @@ The first thing to notice is that each public property of `Hotel` corresponds to
 
 > [!NOTE]
 > The Azure Search .NET SDK uses the [NewtonSoft JSON.NET](http://www.newtonsoft.com/json/help/html/Introduction.htm) library to serialize and deserialize your custom model objects to and from JSON. You can customize this serialization if needed. For more details, see [Custom Serialization with JSON.NET](#JsonDotNet).
+Also for use the attribute [key] for property "hotelId" you need to add a new reference: System.ComponentModel.DataAnnotations.
 > 
 > 
 
